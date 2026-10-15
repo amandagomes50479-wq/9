@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="SaborNow: notícias, tendências, chefs e experiências que movimentam a gastronomia brasileira." />
+    <meta name="theme-color" content="#f7f4ef" />
+    <title>SaborNow — O pulso da gastronomia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="/app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="/" aria-label="SaborNow, início">
+          <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+          <span class="brand-name">sabor<span>now</span></span>
+        </a>
+        <nav class="main-nav" aria-label="Navegação principal">
+          <a href="#ultimas">Últimas</a>
+          <a href="#tendencias">Tendências</a>
+          <a href="#criticas">Críticas</a>
+          <a href="#chefs">Chefs</a>
+          <a href="#experiencias">Experiências</a>
+        </nav>
+        <div class="header-actions">
+          <button class="search-button" type="button" aria-label="Abrir busca">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"></circle><path d="m16 16 5 5"></path></svg>
+          </button>
+          <a class="header-cta" href="#newsletter">Assine a newsletter <span>↗</span></a>
+          <button class="menu-button" type="button" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span></button>
+        </div>
+      </div>
+      <div class="mobile-nav" aria-hidden="true">
+        <a href="#ultimas">Últimas</a><a href="#tendencias">Tendências</a><a href="#criticas">Críticas</a><a href="#chefs">Chefs</a><a href="#experiencias">Experiências</a>
+      </div>
+    </header>
+
+    <main id="conteudo">
+      <section class="hero-section page-shell" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> Edição de outubro · 2026</p>
+          <h1 id="hero-title">A cidade está<br /><em>à mesa.</em></h1>
+          <p class="hero-description">As histórias, pessoas e lugares que estão mudando a forma como comemos — do balcão de bairro à alta gastronomia.</p>
+          <a class="text-link" href="#ultimas">Explorar as histórias <span>↗</span></a>
+        </div>
+        <article class="hero-story">
+          <div class="hero-image image-sao-paulo" role="img" aria-label="Mesa de restaurante com pratos coloridos e luz quente"></div>
+          <div class="story-meta"><span class="tag tag-light">Em destaque</span><span>8 min de leitura</span></div>
+          <h2>O novo luxo é saber de onde vem cada ingrediente</h2>
+          <p class="story-deck">Produtores, cozinheiros e restaurantes que estão redesenhando a cadeia do sabor no Brasil.</p>
+          <a class="story-arrow" href="#materia" aria-label="Ler matéria em destaque">↗</a>
+        </article>
+      </section>
+
+      <section class="ticker" aria-label="Notícias rápidas">
+        <div class="ticker-label"><span class="live-dot"></span> Agora</div>
+        <div class="ticker-track"><span>O guia definitivo dos melhores cafés de São Paulo</span><b>•</b><span>5 ingredientes brasileiros para ficar de olho</span><b>•</b><span>Chef Joana Mello abre balcão no centro</span></div>
+        <button class="ticker-next" type="button" aria-label="Próxima notícia">→</button>
+      </section>
+
+      <section class="latest-section page-shell" id="ultimas" aria-labelledby="latest-title">
+        <div class="section-heading">
+          <div><p class="eyebrow"><span class="eyebrow-line"></span> Curadoria SaborNow</p><h2 id="latest-title">O que está<br /><em>fervendo</em></h2></div>
+          <div class="section-intro"><p>Uma seleção diária de notícias e boas histórias para acompanhar o movimento da gastronomia.</p><a class="text-link" href="#newsletter">Receba no seu e-mail <span>↗</span></a></div>
+        </div>
+        <div class="filter-row" role="group" aria-label="Filtrar notícias">
+          <button class="filter-chip is-active" type="button" data-filter="all">Tudo</button>
+          <button class="filter-chip" type="button" data-filter="tendencias">Tendências</button>
+          <button class="filter-chip" type="button" data-filter="criticas">Críticas</button>
+          <button class="filter-chip" type="button" data-filter="chefs">Chefs</button>
+          <button class="filter-chip" type="button" data-filter="experiencias">Experiências</button>
+        </div>
+        <div class="news-grid">
+          <article class="news-card news-card-featured" data-category="tendencias">
+            <div class="card-image image-fermento"><span class="card-number">01</span></div>
+            <div class="card-content"><div class="story-meta"><span class="tag">Tendências</span><span>6 min</span></div><h3>Fermentação, fogo e tempo: por que o Brasil está redescobrindo suas raízes</h3><p>Uma volta às técnicas ancestrais que encontra novas respostas nas cozinhas contemporâneas.</p><a class="card-link" href="#materia">Ler história <span>↗</span></a></div>
+          </article>
+          <article class="news-card" data-category="criticas">
+            <div class="card-image image-balcao"><span class="card-number">02</span></div>
+            <div class="card-content"><div class="story-meta"><span class="tag">Críticas</span><span>4 min</span></div><h3>O balcão que virou destino: nossa visita ao Nhoque</h3><p>Pequeno, barulhento e absolutamente delicioso.</p><a class="card-link" href="#materia">Ler crítica <span>↗</span></a></div>
+          </article>
+          <article class="news-card" data-category="chefs">
+            <div class="card-image image-chef"><span class="card-number">03</span></div>
+            <div class="card-content"><div class="story-meta"><span class="tag">Chefs</span><span>5 min</span></div><h3>5 minutos com Dandara Reis, a voz da cozinha de quintal</h3><p>“Minha comida começa antes da receita: começa na memória.”</p><a class="card-link" href="#materia">Conheça <span>↗</span></a></div>
+          </article>
+          <article class="news-card" data-category="experiencias">
+            <div class="card-image image-vinho"><span class="card-number">04</span></div>
+            <div class="card-content"><div class="story-meta"><span class="tag">Experiências</span><span>3 min</span></div><h3>Uma noite entre vinhos naturais e discos de vinil</h3><p>O roteiro perfeito para desacelerar — e brindar sem pressa.</p><a class="card-link" href="#materia">Ver roteiro <span>↗</span></a></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="trending-section" id="tendencias" aria-labelledby="trending-title">
+        <div class="page-shell trending-inner">
+          <div class="trending-heading"><p class="eyebrow eyebrow-dark"><span class="eyebrow-line"></span> Mapa do sabor</p><h2 id="trending-title">Restaurantes<br /><em>em alta</em></h2><p>Endereços para colocar no radar — escolhidos pela nossa redação, descobertos por quem vive a cidade.</p><a class="text-link text-link-dark" href="#restaurantes">Ver todos os lugares <span>↗</span></a></div>
+          <div class="restaurant-list" id="restaurantes">
+            <article class="restaurant-item"><div class="restaurant-thumb image-pao"><span>01</span></div><div class="restaurant-info"><div><h3>Pão & Companhia</h3><p>Pinheiros · São Paulo</p></div><span class="restaurant-type">Padaria</span></div><span class="restaurant-arrow">↗</span></article>
+            <article class="restaurant-item"><div class="restaurant-thumb image-caju"><span>02</span></div><div class="restaurant-info"><div><h3>Casa Caju</h3><p>Botafogo · Rio de Janeiro</p></div><span class="restaurant-type">Brasileira</span></div><span class="restaurant-arrow">↗</span></article>
+            <article class="restaurant-item"><div class="restaurant-thumb image-onda"><span>03</span></div><div class="restaurant-info"><div><h3>Onda</h3><p>Centro · Recife</p></div><span class="restaurant-type">Mar</span></div><span class="restaurant-arrow">↗</span></article>
+            <article class="restaurant-item"><div class="restaurant-thumb image-terra"><span>04</span></div><div class="restaurant-info"><div><h3>Terra Baixa</h3><p>Funcionários · BH</p></div><span class="restaurant-type">Autor</span></div><span class="restaurant-arrow">↗</span></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="newsletter-section page-shell" id="newsletter" aria-labelledby="newsletter-title">
+        <div class="newsletter-art" aria-hidden="true"><span class="art-ring ring-one"></span><span class="art-ring ring-two"></span><span class="art-leaf leaf-one"></span><span class="art-leaf leaf-two"></span><span class="art-word">bom<br /><em>apetite</em></span></div>
+        <div class="newsletter-copy"><p class="eyebrow"><span class="eyebrow-line"></span> Carta do SaborNow</p><h2 id="newsletter-title">Uma dose de<br /><em>bom gosto</em></h2><p>Uma vez por semana, as melhores descobertas da gastronomia direto na sua caixa de entrada. Sem spam. Só sabor.</p><form class="newsletter-form"><label class="sr-only" for="email">Seu melhor e-mail</label><input id="email" type="email" placeholder="Seu melhor e-mail" required /><button type="submit">Quero receber <span>↗</span></button></form><p class="form-note" aria-live="polite">Você pode sair quando quiser.</p></div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="experiencias">
+      <div class="footer-top page-shell"><a class="brand brand-footer" href="/" aria-label="SaborNow, início"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span class="brand-name">sabor<span>now</span></span></a><p>O pulso da gastronomia brasileira.<br />Feito para quem come com curiosidade.</p><div class="footer-social"><a href="#instagram">Instagram ↗</a><a href="#tiktok">TikTok ↗</a><a href="#youtube">YouTube ↗</a></div></div>
+      <div class="footer-bottom page-shell"><span>© 2026 SaborNow. Todos os direitos reservados.</span><div><a href="#sobre">Sobre nós</a><a href="#contato">Contato</a><a href="#privacidade">Privacidade</a></div><span>Feito com apetite em São Paulo.</span></div>
+    </footer>
+  </body>
+</html>
