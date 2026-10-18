@@ -210,3 +210,15 @@ h1 em, h2 em { color: var(--coral); font-style: normal; }
   .footer-bottom { align-items: start; display: block; line-height: 1.7; padding-bottom: 23px; }
   .footer-bottom div { margin: 13px 0; }
 }
+
+
+/* Páginas institucionais */
+.simple-page { min-height: 62vh; padding-bottom: 100px; padding-top: 100px; }
+.simple-page h1 { font-size: clamp(48px, 7vw, 88px); margin-bottom: 28px; }
+.simple-page .lead { color: var(--muted); font-size: 17px; line-height: 1.75; max-width: 690px; }
+.simple-page .content-copy { color: var(--muted); font-size: 14px; line-height: 1.8; max-width: 760px; }
+.simple-page .content-copy h2 { color: var(--ink); font-size: 30px; line-height: 1.1; margin: 48px 0 13px; }
+.simple-page .content-copy a { color: var(--green-soft); text-decoration: underline; text-decoration-color: var(--coral); text-underline-offset: 3px; }
+.trust-note { background: var(--paper-deep); border-left: 3px solid var(--coral); color: var(--green); font-size: 12px; line-height: 1.7; margin-top: 38px; max-width: 760px; padding: 16px 18px; }
+.footer-social span { color: var(--green); font-size: 11px; font-weight: 600; }
+@media (max-width: 680px) { .simple-page { padding-bottom: 70px; padding-top: 65px; } .simple-page h1 { font-size: 52px; } }
